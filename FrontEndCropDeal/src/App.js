@@ -203,8 +203,8 @@ render() {
         </div>
 
         {currentUser ? (
-          <div className="navbar-nav ml-auto" style= {{marginLeft:"170px"}}>
-            <li style={{paddingTop:"10px",marginLeft:"590px",width:"50px"}}className="nav-item">
+          <div className="navbar-nav ml-auto" >
+            <li style={{paddingTop:"10px",marginLeft:"590px",width:"100px"}}className="nav-item">
               <Link to={"/profile"} className="nav-link">
                 {currentUser.username}
         </Link>
